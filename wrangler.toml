@@ -7,3 +7,8 @@ pages_build_output_dir = "./public"
 # id here; an invalid id makes deployment fail.
 # The access token SUB_ACCESS_TOKEN is likewise set in
 # Pages project -> Settings -> Variables and Secrets (Production).
+
+# KV binding provisioned here because the dashboard Bindings Add button is disabled for this project (real namespace id created in this account).
+[[kv_namespaces]]
+binding = "SUB_STORE"
+id = "a49df8736d4d4914bc30bc8da026e63c"
